@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Data Science with Python
+title: Data Analyst Nanodegree
 email: napoleon_soro@rocketmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Mark Soro projects, codes and modules for Programming for Data Science with Python from Udacity. Learn Numpy and Pandas and advance SQL.
+  Mark Soro projects, codes and modules for Data Analyst Nanodegree from Udacity.
 baseurl: "/Data-Science-with-Python" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
