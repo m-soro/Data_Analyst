@@ -34,7 +34,7 @@ social:
     - https://www.facebook.com/msoro1
 
 # Build settings
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
   - jemoji
