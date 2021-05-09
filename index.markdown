@@ -7,7 +7,8 @@ image: http://www.informagiovanilodi.it/wp-content/uploads/2019/10/data-analyST-
 nav_order: 1
 ---
 
-# Data Analyst{: .text-center }
+# Data Analyst
+{: .text-center }
 
 ![image](https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/qhJ4qdikxfKiHKy5IbGFc/3b50c6faf8b9dfe332ec084e972afad1/school-of-data.jpg)
 
