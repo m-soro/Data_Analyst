@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Explore Weather Trends - Project 1
+title: Explore Weather Trends
 parent:  Projects
 nav_order: 1
 ---

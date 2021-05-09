@@ -3,12 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-image: https://cdn.futura-sciences.com/buildsv6/images/wide1920/0/3/a/03a0554ae1_50175403_data-analyst-data-scientist-formation-metier.jpg
+image: http://www.informagiovanilodi.it/wp-content/uploads/2019/10/data-analyST-1.png
+nav_order: 1
 ---
 
 # Data Analyst
 
-![image](https://downloadr.in/wp-content/uploads/2020/10/Download-Data-Analyst-Nanodegree.png)
+![image](https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/qhJ4qdikxfKiHKy5IbGFc/3b50c6faf8b9dfe332ec084e972afad1/school-of-data.jpg)
 
 View the [Syllabus](https://d17h27t6h515a5.cloudfront.net/topher/2017/May/591e18bf_dand-syllabus/dand-syllabus.pdf)
 
