@@ -1,9 +1,3 @@
----
-layout: default
-title: Explore Weather Trends
-parent:  Projects
-nav_order: 1
----
 
 # Explore Weather Trends - Project 1
 
@@ -32,10 +26,10 @@ SELECT * FROM global_data
 
 **Part 2 - Read data and Create visualization with Pandas and Matplotlib**
 
-1. Import neccessary packages
+1. Import neccessary packages 
 2. Read the csv files and convert them to pandas DataFrame
 3. Inspect, check and deal with NaNs
-> There are 5 missing data in Washington. I chose to fill with the closest 10 year value.
+> There are 5 missing data in Washington. I chose to fill with the closest 10 year value. 
 4. Prepare the variables for plotting
 > I was getting errors initially since both data sets have different length. To work around this, I decided to plot within the "*middle ground years*" of both data sets. I found this by getting the minimum and maximum years in both data sets and only plot within this "*middle ground years*". Then I set the index for both data sets as year, then set my year variable to the "middle ground year" values.
 5. Create a line plot to compare both data sets
@@ -87,8 +81,8 @@ wash_temp['avg_temp'] = wash_temp['avg_temp'].fillna(value=wash_temp.loc[30:40][
 
 ```python
 # check the replaced NaN values
-print(wash_temp.loc[3:6]['avg_temp'])
-print(wash_temp.loc[37]['avg_temp'])
+print(wash_temp.loc[3:6]['avg_temp']) 
+print(wash_temp.loc[37]['avg_temp']) 
 ```
 
 
@@ -141,7 +135,7 @@ wash_temp.head(3)
 
 
 ```python
-# assign year as index
+# assign year as index 
 global_temp = global_temp.set_index('year')
 
 # check index, see first 3 rows
@@ -193,13 +187,13 @@ fig.savefig('global_washington_ma10.png', bbox_inches='tight')
 ```
 
 
-![png](projects/project1/output_16_0.png)
+![png](output_16_0.png)
 
 
 
 ```python
 wa = round(wash_temp.loc[1750:2013]['avg_temp'].mean(),2)
-gl = round(global_temp.loc[1750:2013]['avg_temp'].mean(),2)
+gl = round(global_temp.loc[1750:2013]['avg_temp'].mean(),2) 
 # Washington average temperature from 1750 to 2013
 print('Washington Mean : ', wa)
 # Global average temperature from 1750 to 2013
@@ -232,7 +226,7 @@ print('Year of max avg temp Globally : ', global_temp.loc[1750:2013]['avg_temp']
 
 * Washington's temperature ranged from **coldest 3.15 C°** a which is a one-time occurence in 1779 and **warmest at 14.19** C° in 2013. Its **standard deviation is 1.03 C°** which means that we can expect that in average, Washington's temperature to **fall within 1.03 C° of the mean temperature of 11.88 C°**.
 
-* Global temperature is more consistent with a standard deviation of **0.58 C°**. The **coldest temperature is 5.78 C°** in 1752  and **warmest at 9.73 C°** in 2007. Global temperature can be expected to **fall within 0.58 C° of the mean temperature of 8.36 C°**.
+* Global temperature is more consistent with a standard deviation of **0.58 C°**. The **coldest temperature is 5.78 C°** in 1752  and **warmest at 9.73 C°** in 2007. Global temperature can be expected to **fall within 0.58 C° of the mean temperature of 8.36 C°**. 
 
 
 ```python
@@ -281,12 +275,12 @@ fig.savefig('global_washington_percent_change.png', bbox_inches='tight')
 ```
 
 
-![png](projects/project1/output_22_0.png)
+![png](output_22_0.png)
 
 
->The huge spike in Washington's Temperature from 1780 to 1790 can be misleading, because these values are NaNs before being filled by the nearest 10 year data set.
+>The huge spike in Washington's Temperature from 1780 to 1790 can be misleading, because these values are NaNs before being filled by the nearest 10 year data set. 
 
-* Beginning from **1751 to 1850**, **Global** temperature had variability in the **range of 0.6 C° to 1.4 C°**. In **Washinton** starting from 1800 had variability of in the **range of 0.6 C° to 1.8 C°**.
+* Beginning from **1751 to 1850**, **Global** temperature had variability in the **range of 0.6 C° to 1.4 C°**. In **Washinton** starting from 1800 had variability of in the **range of 0.6 C° to 1.8 C°**. 
 
 * **After 1850**, **Global** temperature has seen **smaller changes from 0.4 C° to 0.6 C°**. But in **1930 Global** temperature has seen a **steady climb** from 8.5 C° up to 9.5 C° by 2013.
 
