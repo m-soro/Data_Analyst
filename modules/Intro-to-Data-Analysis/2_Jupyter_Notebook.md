@@ -1,3 +1,10 @@
+---
+layout: default
+title: Jupyter
+parent:  Introduction to Data Analysis
+grand_parent: Modules
+nav_order: 2
+---
 # Jupyter Notebook - First Demonstration
 
 <iframe width="100%" height="433" src="https://www.youtube.com/embed/qiYDWFLyXvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

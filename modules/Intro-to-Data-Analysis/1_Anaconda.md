@@ -1,3 +1,11 @@
+---
+layout: default
+title: Anaconda
+parent:  Introduction to Data Analysis
+grand_parent: Modules
+nav_order: 1
+---
+
 # Anaconda
 
 The video below is a demonstration of the concepts that you are going to learn in this lesson. It will show you the significance of creating virtual environments, introduce you to the Anaconda distribution, and demonstrate the use of `conda` to create a virtual environment and install packages into it. **It's alright if you are viewing all these steps for the first time**.

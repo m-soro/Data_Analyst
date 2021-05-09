@@ -8,7 +8,7 @@ image: https://cdn.futura-sciences.com/buildsv6/images/wide1920/0/3/a/03a0554ae1
 
 # Data Analyst
 
-![image](https://onlinecoursetutorials.com/wp-content/uploads/2019/10/Udacity-Data-Analyst-Nanodegree-review.png)
+![image](https://downloadr.in/wp-content/uploads/2020/10/Download-Data-Analyst-Nanodegree.png)
 
 View the [Syllabus](https://d17h27t6h515a5.cloudfront.net/topher/2017/May/591e18bf_dand-syllabus/dand-syllabus.pdf)
 
