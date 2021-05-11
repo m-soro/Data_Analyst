@@ -71,6 +71,6 @@ Before walking through each of these steps with real datasets using Python, let'
 
 <iframe width="100%" height="653" src="https://www.youtube.com/embed/sCQoQsmI3F0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-One of the biggest reasons that Python is considered the standard language for data science is its powerful packages. NumPy, Pandas, and Matplotlib are three core packages for data analysis that we'll be learning to use in this course.
+One of the biggest reasons that Python is considered the standard language for data science is its powerful packages. **NumPy**, **Pandas**, and **Matplotlib** are three core packages for data analysis that we'll be learning to use in this course.
 
-Note: This course aims to introduce these packages with a learning by doing approach as we go through the data analysis process. If you'd like full lessons on NumPy and Pandas, you can find them in lessons 2 and 3 of this [free course](https://classroom.udacity.com/courses/ud170). You can skip the first lesson, which analyzes data with pure Python.
+**Note**: This course aims to introduce these packages with a learning by doing approach as we go through the data analysis process. If you'd like full lessons on NumPy and Pandas, you can find them in lessons 2 and 3 of this [free course](https://classroom.udacity.com/courses/ud170). You can skip the first lesson, which analyzes data with pure Python.
