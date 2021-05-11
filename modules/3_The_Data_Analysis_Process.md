@@ -89,3 +89,13 @@ One of the biggest reasons that Python is considered the standard language for d
 
 
 [Link](https://classroom.udacity.com/nanodegrees/nd002/parts/af503f34-9646-4795-a916-190ebc82cb4a) to Data Wrangling Course.
+
+## Exploring Data with Visuals
+
+<iframe width="100%" height="653" src="https://www.youtube.com/embed/0i_9t4Wi0Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Plotting with Pandas
+
+<iframe width="100%" height="653" src="https://www.youtube.com/embed/kR7KZFqciFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can refer to the Pandas Visualization documentation [here](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html).
