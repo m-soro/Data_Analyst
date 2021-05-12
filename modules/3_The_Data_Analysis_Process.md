@@ -99,3 +99,15 @@ One of the biggest reasons that Python is considered the standard language for d
 <iframe width="100%" height="653" src="https://www.youtube.com/embed/kR7KZFqciFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can refer to the Pandas Visualization documentation [here](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html).
+
+## Drawing Conclusions
+
+<iframe width="100%" height="653" src="https://www.youtube.com/embed/Glctk6ahdFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Communicating Results
+
+<iframe width="100%" height="653" src="https://www.youtube.com/embed/tmAlVZCbgFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Communicating Results Example
+
+<iframe width="100%" height="653" src="https://www.youtube.com/embed/Ae_UOATWmDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
