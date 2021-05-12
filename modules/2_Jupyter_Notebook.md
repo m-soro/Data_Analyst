@@ -190,3 +190,5 @@ To give you some practice, I created a notebook you can work through. Download t
 
 In your terminal, change to the directory with the notebook file, then enter jupyter notebook.
 If you have a Notebook server already up and running, you can either put the newly-downloaded file into the current working directory or use the “Upload” option in the NOtebook server.
+
+[Top](#)

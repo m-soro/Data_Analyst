@@ -108,9 +108,23 @@ You can refer to the Pandas Visualization documentation [here](https://pandas.py
 
 <iframe width="100%" height="653" src="https://www.youtube.com/embed/tmAlVZCbgFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 ## Communicating Results Example
 
 <iframe width="100%" height="653" src="https://www.youtube.com/embed/Ae_UOATWmDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-[Communicate Quiz](/modules/data_analysis_process/communicate_quiz.ipynb)
+## My Jupyter notebooks from this module
+
+### [Reading Csv](https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/reading_csv.ipynb)
+
+### [Assessing](https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/assessing.ipynb)
+
+### [Cleaning](https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/cleaning_practice.ipynb)
+
+### [Communicate Quiz](https://github.com/m-soro/Data_Analyst/tree/main/modules/data_analysis_process/communicate_quiz.ipynb)
+
+### [Conclusions](https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/conclusions_quiz.ipynb)
+
+
+[Top](#)
