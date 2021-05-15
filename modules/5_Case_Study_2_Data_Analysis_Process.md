@@ -40,6 +40,11 @@ Below are the web pages from this video. Note that the datasets we'll be working
 
 2. [Cleaning Column Labes](/https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/cleaning_column_labels.ipynb)
 
-* drop extraneous columns and standardize all columns(lower case and replace spaces with underscores) 
+* drop extraneous columns and standardize all columns(lower case and replace spaces with underscores)
+
+3. [Filter, Drop Nulls, Dedupe](/https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/filter_drop_dedupe.ipynb)
+
+
+
 
 [top](#)
