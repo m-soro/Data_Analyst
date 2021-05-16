@@ -46,10 +46,10 @@ Below are the web pages from this video. Note that the datasets we'll be working
 
 5. [Fixing Data Types Pt 1 - `cyl`](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/fix_datatypes_cyl.ipynb)
 
-6. [Fixing Data Types Pt 2 - 'air_pollution_score'](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/fix_datatypes_air_pollution.ipynb) - splitting row with string values into two rows then append them to original dataFrame, then convert them to ints. Used pandas `apply` function.
+6. [Fixing Data Types Pt 2 - `air_pollution_score`](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/fix_datatypes_air_pollution.ipynb) - splitting row with string values into two rows then append them to original dataFrame, then convert them to ints. Used pandas `apply` function.
 
-7. [Fixing Data Types Pt3 - 'city_mpg','hwy_mpg','cmb_mpg'](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/fix_datatypes_mpg_greenhouse.ipynb) - used loop to correct data types. Result: final clean data.
+7. [Fixing Data Types Pt3 - `city_mpg`,`hwy_mpg`,`cmb_mpg`](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/fix_datatypes_mpg_greenhouse.ipynb) - used loop to correct data types. Result: final clean data.
 
-8. [Exploring with Visuals](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/exploring_visuals.ipynb)
+8. [Exploring with Visuals](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/exploring_visuals.ipynb) - used scatter plots and histograms.
 
 [top](#)
