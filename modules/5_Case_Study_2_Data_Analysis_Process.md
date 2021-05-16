@@ -46,6 +46,6 @@ Below are the web pages from this video. Note that the datasets we'll be working
 
 5. [Fixing Data Types Pt 1 - `cyl`](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/fix_datatypes_cyl.ipynb)
 
-6. [Fixing Data Types Pt 2 - 'air_pollution_score'](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/fix_datatypes_air_pollution.ipynb) - splitting row with string values into two rows then append them to original dataframe, then convert them to ints. Used pandas `apply` function.
+6. [Fixing Data Types Pt 2 - 'air_pollution_score'](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/fix_datatypes_air_pollution.ipynb) - splitting row with string values into two rows then append them to original dataFrame, then convert them to ints. Used pandas `apply` function.
 
 [top](#)
