@@ -42,7 +42,7 @@ Below are the web pages from this video. Note that the datasets we'll be working
 
 3. [Filter, Drop Nulls, Dedupe](https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/filter_drop_dedupe.ipynb)
 
-
+4. [Inspect Data Types](https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/inspect_datatypes.ipynb)
 
 
 [top](#)
