@@ -7,4 +7,4 @@ nav_order: 2
 
 # My Projects
 
-Welcome to the projects page!
+1. [Explore Weather Trends](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/projects/project1/DA_Project1_Submission.ipynb) - Ananlyze weather trend using pandas and matplotlib.
