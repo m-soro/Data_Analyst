@@ -36,13 +36,16 @@ Below are the web pages from this video. Note that the datasets we'll be working
 
 ## Jupyter Notebooks
 
-1. [Assessing](https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/assessing.ipynb)
+1. [Assessing](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/assessing.ipynb)
 
-2. [Cleaning Column Labes](https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/cleaning_column_labels.ipynb) - Drop extraneous columns and standardize all columns e.g lower case and replace spaces with underscores
+2. [Cleaning Column Labes](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/cleaning_column_labels.ipynb) - Drop extraneous columns and standardize all columns e.g lower case and replace spaces with underscores
 
-3. [Filter, Drop Nulls, Dedupe](https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/filter_drop_dedupe.ipynb)
+3. [Filter, Drop Nulls, Dedupe](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/filter_drop_dedupe.ipynb)
 
-4. [Inspect Data Types](https://github.com/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/inspect_datatypes.ipynb)
+4. [Inspect Data Types](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/inspect_datatypes.ipynb)
 
+5. [Fixing Data Types Pt 1 - `cyl`](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/fix_datatypes_cyl.ipynb)
+
+6. [Fixing Data Types Pt 2 - 'air_pollution_score'](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/fix_datatypes_air_pollution.ipynb) - splitting row with string values into two rows then append them to original dataframe, then convert them to ints. Used pandas `apply` function.
 
 [top](#)
