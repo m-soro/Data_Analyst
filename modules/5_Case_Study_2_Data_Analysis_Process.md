@@ -52,4 +52,7 @@ Below are the web pages from this video. Note that the datasets we'll be working
 
 8. [Exploring with Visuals](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/exploring_visuals.ipynb) - used scatter plots and histograms.
 
+9. [Drawing Conclusions](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/drawing_conclusions.ipynb) - used scatter plots and histograms. [Udacity's Solution]((https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/drawing_conclusions_solutions.ipynb)
+
+
 [top](#)
