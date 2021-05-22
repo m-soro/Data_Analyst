@@ -34,6 +34,23 @@ Below are the web pages from this video. Note that the datasets we'll be working
 * [DOE Fuel Economy Data](http://www.fueleconomy.gov/feg/download.shtml/)
 * [Documentation Pdf](https://www.fueleconomy.gov/feg/EPAGreenGuide/GreenVehicleGuideDocumentation.pdf)
 
+## Types of Merges
+
+So far, we've learned about appending dataframes. Now we'll learn about [pandas Merges](https://pandas.pydata.org/pandas-docs/stable/merging.html#database-style-dataframe-joining-merging), a different way of combining dataframes. This is similar to the database-style "join." If you're familiar with SQL, this [comparison with SQL](https://pandas.pydata.org/pandas-docs/stable/comparison_with_sql.html#compare-with-sql-join) may help you connect these two.
+
+Here are the four types of merges in pandas. Below, "key" refers to common columns in both dataframes that we're joining on.
+
+1. Inner Join - Use intersection of keys from both frames.
+2. Outer Join - Use union of keys from both frames.
+3. Left Join - Use keys from left frame only.
+4. Right Join - Use keys from right frame only.
+
+Below are diagrams to visualize each type.
+
+![image](https://video.udacity-data.com/topher/2017/October/59d3e866_inner-outer/inner-outer.png)
+
+![image](https://video.udacity-data.com/topher/2017/October/59d3e874_left-right/left-right.png)
+
 ## Jupyter Notebooks
 
 1. [Assessing](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/assessing.ipynb)
@@ -52,7 +69,11 @@ Below are the web pages from this video. Note that the datasets we'll be working
 
 8. [Exploring with Visuals](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/exploring_visuals.ipynb) - used scatter plots and histograms.
 
-9. [Drawing Conclusions](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/drawing_conclusions.ipynb) - used scatter plots and histograms. [Udacity's Solution]((https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/drawing_conclusions_solutions.ipynb)
+9. [Drawing Conclusions](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/drawing_conclusions.ipynb) - used scatter plots and histograms. [Udacity's Solution](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/drawing_conclusions_solutions.ipynb)
+
+10. [Merging Datasets](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/merging_data.ipynb) - perform inner merge based on car models in 2008 and 2018.
+
+11. [Results Merge](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/data_analysis_process/case_study_2/results_merged.ipynb) - using `idxmax()` or filtering dataframe to find the most improved vehicle.
 
 
 [top](#)
