@@ -1,0 +1,9 @@
+---
+layout: default
+title: Practical Statistics
+parent:  Modules
+has_children: true
+nav_order: 3
+---
+
+I will only cover new materials for me, since I had taken related Statistics course previously.
