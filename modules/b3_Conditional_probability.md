@@ -18,11 +18,11 @@ For example, the probability of obtaining a positive test result is dependent on
 
 In this case, we could have this as:
 
-![formula](modules/practical_statistics/001.png)
+![formula](/practical_statistics/001.png)
 
 where |∣ represents "given" and  represents "and".
 
-![formula](modules/practical_statistics/002.png)
+![formula](/practical_statistics/002.png)
 
 **Looking Ahead**
 

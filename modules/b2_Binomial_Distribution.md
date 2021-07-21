@@ -15,7 +15,7 @@ The **Binomial Distribution** helps us determine the probability of a string of 
 
 The [probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function) associated with the binomial distribution is of the following form:
 
-![formula](modules/practical_statistics/formula.png)
+![formula](/practical_statistics/formula.png)
 
 where **n** is the number of events, **x** is the number of "successes", and **p** is the probability of "success".
 
