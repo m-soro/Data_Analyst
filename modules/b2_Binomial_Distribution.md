@@ -9,7 +9,7 @@ nav_order: 2
 
 <iframe width="100%" height="664" src="https://www.youtube.com/embed/9gjCYs8f_PU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[My_Binomial_Distribution_Notebook](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Binomial_Distribution.ipynb)
+[My Binomial Distribution Notebook](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Binomial_Distribution.ipynb)
 
 The **Binomial Distribution** helps us determine the probability of a string of independent 'coin flip like events'.
 

@@ -9,7 +9,7 @@ nav_order: 3
 
 <iframe width="100%" height="664" src="https://www.youtube.com/embed/yepMH9VswI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[My_Conditional_Probability_Notebook](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Conditional_Probability.ipynb)
+[My Conditional Probability Notebook](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Conditional_Probability.ipynb)
 
 
 In this lesson you learned about conditional probability. Often events are not independent like with coin flips and dice rolling. Instead, the outcome of one event depends on an earlier event.

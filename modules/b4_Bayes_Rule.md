@@ -8,6 +8,6 @@ nav_order: 4
 ## Bayes Rule
 
 
-[My_Bayes_Rule_Notebook](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Bayes_Rule.ipynb)
+[My Bayes Rule Notebook](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Bayes_Rule.ipynb)
 
-[My_Conditional_Probability_and_Bayes_Rule_Quizzes_Notebook](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Conditional_Probability_and_Bayes_Rule_Quizzes.ipynb)
+[Conditional Probability and Bayes Rule Quizzes](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Conditional_Probability_and_Bayes_Rule_Quizzes.ipynb)

@@ -9,7 +9,7 @@ nav_order: 1
 
 Probability Exercise
 
-[My_Probability_Notebook](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Probability_Theory.ipynb)
+[My Probability Notebook](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Probability_Theory.ipynb)
 
 Probability
 Here you learned some fundamental rules of probability. Using notation, we could say that the outcome of a coin flip could either be T or H for the event that the coin flips tails or heads, respectively.
