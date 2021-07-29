@@ -14,3 +14,7 @@ nav_order: 5
 [Simulating Many Coin Flips](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/simulating_many_coin_flips.ipynb)
 
 [Binomial Distributions Quiz](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/binomial_distributions.ipynb)
+
+[Cancer Test Results](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/cancer_test_results.ipynb)
+
+[Conditional Probability and Bayes Rule Quiz](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/conditional_probability_bayes_rule.ipynb)
