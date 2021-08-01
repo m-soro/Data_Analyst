@@ -58,6 +58,7 @@ Second, we found out some interesting ideas about sampling distributions that wi
 The sampling distribution is centered on the original parameter value.
 
 The sampling distribution decreases its variance depending on the sample size used. Specifically, the variance of the sampling distribution is equal to the variance of the original data divided by the sample size used. This is always true for the variance of a sample mean!
-In notation, we say if we have a random variable, <img src="https://render.githubusercontent.com/render/math?math=\large\bar{X}">, with variance of <img src="https://render.githubusercontent.com/render/math?math=\large\sigma^{2}">, then the distribution of <img src="https://render.githubusercontent.com/render/math?math=\large\bar{X}" (the sampling distribution of the sample mean) has a variance of <img src="https://render.githubusercontent.com/render/math?math=\large\frac{\sigma^{2}}{n}}>"
+
+In notation, we say if we have a random variable, <img src="https://render.githubusercontent.com/render/math?math=\LARGE\bar{X}">, with variance of <img src="https://render.githubusercontent.com/render/math?math=\LARGE\sigma^{2}">, then the distribution of <img src="https://render.githubusercontent.com/render/math?math=\LARGE\bar{X}"> (the sampling distribution of the sample mean) has a variance of <img src="https://render.githubusercontent.com/render/math?math=\LARGE\frac{\sigma^{2}}{n}">
 
 ​
