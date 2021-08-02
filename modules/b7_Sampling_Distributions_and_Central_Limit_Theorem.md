@@ -91,6 +91,23 @@ The sample size of 100 is large enough for CLT to take effect.
 * CLT does not apply to: **sampling distribution of the variance**, **correlation coefficient**, **sampling distribution for maximum value of the dataset**
 ![image](/practical_statistics/008.png)
 
+You saw how the Central Limit Theorem worked for the sample mean in the earlier concept. The **Central Limit Theorem states that with a large enough sample size the sampling distribution of the mean will be normally distributed**.
+
+The Central Limit Theorem actually applies for these well known statistics:
+
+1. Sample means (<img src="https://render.githubusercontent.com/render/math?math=\large\bar{x}">)
+
+2. Sample proportions (<img src="https://render.githubusercontent.com/render/math?math=\large p">)
+
+3. Difference in sample means (<img src="https://render.githubusercontent.com/render/math?math=\large\bar{x_{1}}-\bar{x_{2}}">)
+
+4. Difference in sample proportions (<img src="https://render.githubusercontent.com/render/math?math=\large\p_{1} - p_{2}">)
+
+And it applies for additional statistics, **but it doesn't apply for all statistics**.
+
+[Central Limit Theorem Part 3](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Central_Limit_Theorem_Part_3.ipynb)
+
+* This distribution is right skewed, not normally distributed.
 
 
-​
+## Bootstrapping
