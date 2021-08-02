@@ -68,5 +68,29 @@ In notation, we say if we have a random variable, <img src="https://render.githu
 
 [Notation Quiz](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Notation.ipynb)
 
+## Law of Large Numbers
+
+## Central Limit Theorem
+
+[Central Limit Theorem Part 1](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Central_Limit_Theorem.ipynb)
+
+The sample size above wasn't large enough for CLT to take effect.
+
+[Central Limit Theorem Part 2](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Central_Limit_Theorem_Part_2.ipynb)
+
+The sample size of 100 is large enough for CLT to take effect.
+
+### CLT Notes
+
+* **Mean** and **Proportion** are **normally distributed** with large enough sample sizes. But, when is it large enough?
+![image](/practical_statistics/006.png)
+
+* CLT applies to: **Mean**, **Proportion**, **difference of mean**, **difference of proportion**
+![image](/practical_statistics/007.png)
+
+* CLT does not apply to: **sampling distribution of the variance**, **correlation coefficient**, **sampling distribution for maximum value of the dataset**
+![image](/practical_statistics/008.png)
+
+
 
 ​
