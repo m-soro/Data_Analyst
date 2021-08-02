@@ -61,4 +61,12 @@ The sampling distribution decreases its variance depending on the sample size us
 
 In notation, we say if we have a random variable, <img src="https://render.githubusercontent.com/render/math?math=\LARGE\bar{X}">, with variance of <img src="https://render.githubusercontent.com/render/math?math=\LARGE\sigma^{2}">, then the distribution of <img src="https://render.githubusercontent.com/render/math?math=\LARGE\bar{X}"> (the sampling distribution of the sample mean) has a variance of <img src="https://render.githubusercontent.com/render/math?math=\LARGE\frac{\sigma^{2}}{n}">
 
+
+## Notation
+
+![image](/practical_statistics/notation_img.png)
+
+[Notation Quiz](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Notation.ipynb)
+
+
 ​
