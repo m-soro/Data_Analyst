@@ -47,6 +47,10 @@ A **sampling distribution** is the distribution of a statistic.
 
 ## Sampling Distributions Notes
 
+* Sampling Distributions are the distribution of a statistic (any statistic).
+
+* There are two very important mathematical theorems that are related to sampling distributions: The Law of Large Numbers and The Central Limit Theorem.
+
 We have already learned some really valuable ideas about sampling distributions:
 
 First, we have defined sampling distributions as the distribution of a statistic.
@@ -70,7 +74,11 @@ In notation, we say if we have a random variable, <img src="https://render.githu
 
 ## Law of Large Numbers
 
+* **The Law of Large Numbers** states that as a sample size increases, the sample mean will get closer to the population mean. In general, if our statistic is a "good" estimate of a parameter, it will approach our parameter with larger sample sizes.
+
 ## Central Limit Theorem
+
+* **Central Limit Theorem** states that with large enough sample sizes our sample mean will follow a normal distribution, but it turns out this is true for more than just the sample mean.
 
 [Central Limit Theorem Part 1](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Central_Limit_Theorem.ipynb)
 
@@ -111,3 +119,11 @@ And it applies for additional statistics, **but it doesn't apply for all statist
 
 
 ## Bootstrapping
+
+* **Bootstrapping** is a technique where we sample from a group with replacement.
+
+* We can use bootstrapping to simulate the creation of sampling distribution, which you did many times in this lesson.
+
+* By bootstrapping and then calculating repeated values of our statistics, we can gain an understanding of the sampling distribution of our statistics.
+
+[Bootstrap Sampling](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Bootstrap_Sampling.ipynb)
