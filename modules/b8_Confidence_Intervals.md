@@ -12,4 +12,4 @@ nav_order: 8
 
 You can interpret your confidence interval as We are `95%` confident, the `population mean` falls between the bounds that you find. Notice that the percent and the parameter can both change depending on what you are building your confidence interval for, and what percentage you cutoff in each tail.
 
-[Bootstrap Sampling](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Bootstrap_Sampling.ipynb)
+[Confidence Intervals Part 1](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Confidence_Intervals_Part_1.ipynb)
