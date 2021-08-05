@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Conditionall Probability
+title: Conditional Probability
 parent:  Practical Statistics
 grand_parent: Modules
 nav_order: 3
