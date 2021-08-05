@@ -28,4 +28,4 @@ where |∣ represents "given" and  represents "and".
 
 You will get more practice with conditional probability using Bayes rule in the lesson. If you are comfortable with the examples here, the next lesson should be a breeze. And if you are still feeling a bit uncomfortable with these ideas, the next lesson should be good practice to reinforce the topics here with some more examples.
 
-[top](#)
+[Top](#)

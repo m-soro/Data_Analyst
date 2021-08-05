@@ -147,3 +147,5 @@ In this lesson, you learned:
 The topics of confidence intervals and hypothesis testing essentially do the same thing, but depending on who you talk to or what source you are reading from, it is important to understand both.
 
 In the next lesson, you will be learning about hypothesis testing!
+
+[Top](#)

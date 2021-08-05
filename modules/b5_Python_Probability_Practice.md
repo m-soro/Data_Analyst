@@ -18,3 +18,5 @@ nav_order: 5
 [Cancer Test Results](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/cancer_test_results.ipynb)
 
 [Conditional Probability and Bayes Rule Quiz](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/conditional_probability_bayes_rule.ipynb)
+
+[Top](#)

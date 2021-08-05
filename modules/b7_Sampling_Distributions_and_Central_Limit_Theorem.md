@@ -127,3 +127,5 @@ And it applies for additional statistics, **but it doesn't apply for all statist
 * By bootstrapping and then calculating repeated values of our statistics, we can gain an understanding of the sampling distribution of our statistics.
 
 [Bootstrap Sampling](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Bootstrap_Sampling.ipynb)
+
+[Top](#)
