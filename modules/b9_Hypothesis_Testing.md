@@ -250,8 +250,15 @@ In the above case, our interval was entirely below 70, which would suggest the n
 
 ## Simulating From the Null Hypothesis
 
+<iframe width="100%" height="433" src="https://www.youtube.com/embed/sL2yJtHZd8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 In the previous lesson on confidence intervals, we saw how we could simulate a sampling distribution for a statistic by bootstrapping our sample data.
 
 Alternatively, in hypothesis testing, we could simulate a sampling distribution from the null hypothesis using characteristics that would be true if our data were to have come from the null.
 
 **Hypothesis tests are about an entire population of interest.**
+**The equality portion belongs in the null, and the statement we are trying to prove generally appears in the alternative.**
+
+[Simulating from the Null](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Simulating_from_the_Null.ipynb)
+
+[Simulating from the Null Solution](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Simulating_from_the_Null_Solution.ipynb)
