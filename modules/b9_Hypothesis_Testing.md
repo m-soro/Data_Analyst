@@ -262,3 +262,160 @@ Alternatively, in hypothesis testing, we could simulate a sampling distribution 
 [Simulating from the Null](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Simulating_from_the_Null.ipynb)
 
 [Simulating from the Null Solution](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Simulating_from_the_Null_Solution.ipynb)
+
+## What is a p-value Anyway?
+
+<iframe width="100%" height="433" src="https://www.youtube.com/embed/eU6pUZjqviA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The definition of a p-value is the **probability of observing your statistic (or one more extreme in favor of the alternative) if the null hypothesis is true.**
+
+In this video, you learned exactly how to calculate this value. **The more extreme in favor of the alternative** portion of this statement determines the shading associated with your p-value.
+
+Therefore, you have the following cases:
+
+If your parameter is greater than some value in the alternative hypothesis, your shading would look like this to obtain your p-value:
+
+![image](https://video.udacity-data.com/topher/2017/November/5a0230ff_screen-shot-2017-11-07-at-2.16.14-pm/screen-shot-2017-11-07-at-2.16.14-pm.png)
+
+If your parameter is less than some value in the alternative hypothesis, your shading would look like this to obtain your p-value:
+
+![image](https://video.udacity-data.com/topher/2017/November/5a023164_screen-shot-2017-11-07-at-2.18.27-pm/screen-shot-2017-11-07-at-2.18.27-pm.png)
+
+If your parameter is not equal to some value in the alternative hypothesis, your shading would look like this to obtain your p-value:
+
+![image](https://video.udacity-data.com/topher/2017/November/5a02314d_screen-shot-2017-11-07-at-2.17.08-pm/screen-shot-2017-11-07-at-2.17.08-pm.png)
+
+You could integrate the sampling distribution to obtain the area for each of these p-values. Alternatively, you will be simulating to obtain these proportions in the next concepts.
+
+## Calculating the p-value
+
+
+<iframe width="100%" height="743" src="https://www.youtube.com/embed/_W3Jg7jQ8jI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Quiz 1 and Quiz 2 and Quiz 3
+
+The quizzes on this page and the next page are to ensure you understand conceptually how the pieces fit together.
+
+Use the following to answer the three quiz questions below. Imagine we have the following null and alternative hypotheses:
+
+
+![image](/practical_statistics/010.png)
+
+and you collect data that provide you with a sample mean of 10.
+
+Select the statement that is true.
+* We would expect the population mean to be greater than 5.
+Which of the following would be true regarding the p-value?
+* We expect the p-value to be greater than 50%
+>Because 10 is to the right of the null mean of 5, and the alternative is less than, we shade to the left - this would shade more than half of the distribution. Imagine marking the center of the distribution at 5 and where 10 would be. Then you mark the 10, and shade according to the alternative (less than).
+
+Base on your sample mean of 10, which hypothesis seems more likely to be true?
+* The null is more likely to be true. Since the population is much greater than 5 (at 10), this suggests we should stick with the null. It is actually always the case that when your p-value is large you will end up staying with the null hypothesis as your choice.
+
+![image](/practical_statistics/011.png)
+sample mean of 10
+
+* We expect the population mean to be greater than 5.
+* We expect the p=value to be less than 50%
+>Because 10 is to the right of the null mean of 5, and the alternative is greater than, we shade to the right - this would shade less than half of the distribution. Imagine marking the center of the distribution at 5 and where 10 would be. Then you mark the 10, and shade according to the alternative (greater than).
+
+* The alternative is more likely to be true. Since the population mean is much greater than 5 (at 10), this suggests we should move to the alternative. It is actually always the case that when your p-value is small you will end up moving to the alternative hypothesis.
+
+## Connecting Errors and P-Values
+
+<iframe width="100%" height="743" src="https://www.youtube.com/embed/hFNjd5l9CLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The p-value is the probability of getting our statistic or a more extreme value if the null is true.
+
+Therefore, small p-values suggest our null is not true. Rather, our statistic is likely to have come from a different distribution than the null.
+
+When the p-value is large, we have evidence that our statistic was likely to come from the null hypothesis. Therefore, we do not have evidence to reject the null.
+
+By comparing our p-value to our type I error threshold α, we can make our decision about which hypothesis we will choose.
+
+![image](/practical_statistics/012.png)
+
+## Conclusions in Hypothesis Testing
+
+<iframe width="100%" height="743" src="https://www.youtube.com/embed/I0Mo7hcxahY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The word **accept** is one that is avoided when making statements regarding the null and alternative. You are not stating that one of the hypotheses is true. Rather, you are making a decision based on the likelihood of your data coming from the null hypothesis with regard to your type I error threshold.
+
+Therefore, the wording used in conclusions of hypothesis testing includes: **We reject the null hypothesis** or **We fail to reject the null hypothesis**. This lends itself to the idea that you start with the null hypothesis true by default, and "choosing" the null at the end of the test would have been the choice even if no data were collected.
+
+
+### Quiz: Connecting Errors and P-Values
+
+
+| P-VALUE/ALPHA                | CONCLUSION              |
+|------------------------------|-------------------------|
+| p-value = 0.03, alpha = 0.05 | Reject the null         |
+| p-value = 0.20, alpha = 0.01 | Fail to reject the null |
+| p-value = 0.10, alpha = 0.05 | Fail to reject the null |
+
+Match the definition
+
+| DEFINITION                                                     | DEFINITION TERM            |
+|----------------------------------------------------------------|----------------------------|
+| The threshold for type I errors.                               | alpha                      |
+| The worst type of error.                                       | Type I error               |
+| Deciding the null is true, but really the alternative is true. | Type II error              |
+| Deciding the alternative is true but really the null is true.  | Type I error               |
+| The choice made when the p-value is less than alpha            | Reject the null hypothesis |
+
+### Quiz - Drawing Conclusions
+[Calculating Error Rates](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Drawing_Conclusions.ipynb)
+
+[Udacity Solution](https://nbviewer.jupyter.org/github/m-soro/Data_Analyst/blob/main/modules/practical_statistics/Drawing_Conclusions_Solution.ipynb)
+
+## Other Things to Consider - Impact of Large Sample Size
+
+<iframe width="100%" height="743" src="https://www.youtube.com/embed/WoTCeSTL1eM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+One of the most important aspects of interpreting any statistical results (and one that is frequently overlooked) is assuring that your sample is truly representative of your population of interest.
+
+Particularly in the way that data is collected today in the age of computers, **response bias** is so important to keep in mind. In the 2016 U.S election, polls conducted by many news media suggested a staggering difference from the reality of poll results. You can read about how response bias played a role [here](http://www.pewresearch.org/fact-tank/2016/11/09/why-2016-election-polls-missed-their-mark/).
+
+### Hypothesis Testing vs. Machine Learning
+With large sample sizes, hypothesis testing leads to even the smallest of findings as statistically significant. However, these findings might not be practically significant at all.
+
+For example, imagine you find that statistically more people prefer beverage 1 to beverage 2 in a study of more than one million people. Based on this you decide to open a shop to sell beverage 1. You then find out that beverage 1 is only more popular than beverage 2 by 0.0002% (but a statistically significant amount with your large sample size). Practically, maybe you should have opened a store that sold both.
+
+Hypothesis testing takes an aggregate approach towards the conclusions made based on data, as these tests are aimed at understanding population parameters (which are aggregate population values).
+
+Alternatively, machine learning techniques take an individual approach towards making conclusions, as they attempt to predict an outcome for each specific data point.
+
+In the final lessons of this class, you will learn about two of the most fundamental machine learning approaches used in practice: **linear** and **logistic** regression.
+
+## Other Things to Consider - What If We Test More Than Once?
+
+<iframe width="100%" height="743" src="https://www.youtube.com/embed/DuMgeHrkIF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+When performing more than one hypothesis test, your type I error compounds. In order to correct for this, a common technique is called the **Bonferroni** correction. This correction is **very conservative**, but says that your new type I error rate should be the error rate you actually want divided by the number of tests you are performing.
+
+Therefore, if you would like to hold a type I error rate of 1% for each of 20 hypothesis tests, the **Bonferroni** corrected rate would be 0.01/20 = 0.0005. This would be the new rate you should use as your comparison to the p-value for each of the 20 tests to make your decision.
+
+**Other Techniques**
+
+Additional techniques to protect against compounding type I errors include:
+
+1. [Tukey correction](http://www.itl.nist.gov/div898/handbook/prc/section4/prc471.htm)
+
+2. [Q-values](http://www.nonlinear.com/support/progenesis/comet/faq/v2.0/pq-values.aspx)
+
+## Other Things to Consider - How Do CIs and HTs Compare?
+
+<iframe width="100%" height="743" src="https://www.youtube.com/embed/KEmsEViOoMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+A two-sided hypothesis test (that is a test involving a ≠ in the alternative) is the same in terms of the conclusions made as a confidence interval as long as:
+
+![image](/practical_statistics/013.png)
+
+For example, a 95% confidence interval will draw the same conclusions as a hypothesis test with a type I error rate of 0.05 in terms of which hypothesis to choose, because:
+
+`1 - 0.95 = 0.05`
+
+assuming that the alternative hypothesis is a two sided test.
+
+Video on effect size [here](https://www.youtube.com/watch?v=z98xODInLCQ).
